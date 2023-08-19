@@ -1,0 +1,133 @@
+.tab {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.tab .item {
+  font-family: "Public Sans", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tab .item-2 {
+  font-family: "Public Sans", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tab.state-3-selected {
+  background-color: #ddf1ff;
+  box-shadow: 0.3px 0.8px 1.1px #bbbbbb1c, 0.5px 1.3px 1.8px -0.6px #bbbbbb2e, 1.1px 2.7px 3.8px -1.2px #bbbbbb42;
+}
+
+.tab.state-3-active {
+  background-color: #dddee0;
+}
+
+.tab.size-3-large {
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.tab.state-3-hover {
+  background-color: #eeeff0;
+}
+
+.tab.size-3-small {
+  border-radius: 9px;
+  padding: 5px 8px;
+}
+
+.tab.up {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab.size-3-medium {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.tab.state-3-selected .item {
+  color: #054da7;
+}
+
+.tab.state-3-active .item {
+  color: #272930;
+}
+
+.tab.size-3-large .item {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tab.state-3-disabled .item {
+  color: #bdbfc4;
+}
+
+.tab.state-3-hover .item {
+  color: #272930;
+}
+
+.tab.size-3-small .item {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.tab.size-3-medium .item {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tab.state-3-enabled .item {
+  color: #272930;
+}
+
+.tab.state-3-selected .item-2 {
+  color: #054da7;
+}
+
+.tab.state-3-active .item-2 {
+  color: #272930;
+}
+
+.tab.size-3-large .item-2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tab.state-3-disabled .item-2 {
+  color: #bdbfc4;
+}
+
+.tab.state-3-hover .item-2 {
+  color: #272930;
+}
+
+.tab.size-3-small .item-2 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.tab.size-3-medium .item-2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tab.state-3-enabled .item-2 {
+  color: #272930;
+}
+
+.tab.left .item-2 {
+  margin-top: -1px;
+}

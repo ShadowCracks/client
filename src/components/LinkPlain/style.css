@@ -1,0 +1,185 @@
+.link-plain {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.link-plain .link {
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-plain.state-1-active {
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.link-plain.state-1-disabled {
+  align-items: flex-start;
+  height: 24px;
+}
+
+.link-plain.state-1-hover {
+  align-items: flex-start;
+  border-radius: 4px;
+}
+
+.link-plain.state-1-enabled {
+  align-items: flex-start;
+  height: 24px;
+}
+
+.link-plain.state-1-active.color-2-info {
+  background-color: #e1cbff;
+}
+
+.link-plain.state-1-active.color-2-warning {
+  background-color: #eac54f;
+}
+
+.link-plain.state-1-active.color-2-neutral {
+  background-color: #dddee0;
+}
+
+.link-plain.state-1-hover.color-2-info {
+  background-color: #f4eaff;
+}
+
+.link-plain.state-1-hover.color-2-warning {
+  background-color: #fff8c5;
+}
+
+.link-plain.state-1-hover.color-2-neutral {
+  background-color: #eeeff0;
+}
+
+.link-plain.state-1-hover.color-2-success {
+  background-color: #d7f5dd;
+}
+
+.link-plain.color-2-primary.state-1-active {
+  background-color: #addbff;
+}
+
+.link-plain.state-1-active.color-2-danger {
+  background-color: #ffc7c5;
+}
+
+.link-plain.state-1-hover.color-2-primary {
+  background-color: #ddf1ff;
+}
+
+.link-plain.color-2-success.state-1-active {
+  background-color: #77ec95;
+}
+
+.link-plain.state-1-hover.color-2-danger {
+  background-color: #ffe9e8;
+}
+
+.link-plain.state-1-enabled.color-2-info .link {
+  color: #5f35ae;
+}
+
+.link-plain.color-2-success.state-1-enabled .link {
+  color: #0f5d26;
+}
+
+.link-plain.state-1-active.color-2-info .link {
+  color: #5f35ae;
+}
+
+.link-plain.state-1-active.color-2-warning .link {
+  color: #4d2d00;
+}
+
+.link-plain.state-1-enabled.color-2-danger .link {
+  color: #a10e25;
+}
+
+.link-plain.state-1-active.color-2-neutral .link {
+  color: #272930;
+}
+
+.link-plain.state-1-enabled.color-2-primary .link {
+  color: #054da7;
+}
+
+.link-plain.state-1-hover.color-2-info .link {
+  color: #5f35ae;
+}
+
+.link-plain.state-1-disabled.color-2-warning .link {
+  color: #eac54f;
+}
+
+.link-plain.state-1-hover.color-2-warning .link {
+  color: #4d2d00;
+}
+
+.link-plain.state-1-hover.color-2-neutral .link {
+  color: #272930;
+}
+
+.link-plain.color-2-primary.state-1-disabled .link {
+  color: #addbff;
+}
+
+.link-plain.state-1-hover.color-2-success .link {
+  color: #0f5d26;
+}
+
+.link-plain.color-2-primary.state-1-active .link {
+  color: #054da7;
+}
+
+.link-plain.color-2-success.state-1-disabled .link {
+  color: #77ec95;
+}
+
+.link-plain.state-1-active.color-2-danger .link {
+  color: #a10e25;
+}
+
+.link-plain.state-1-disabled.color-2-info .link {
+  color: #e1cbff;
+}
+
+.link-plain.state-1-enabled.color-2-warning .link {
+  color: #4d2d00;
+}
+
+.link-plain.state-1-hover.color-2-primary .link {
+  color: #054da7;
+}
+
+.link-plain.color-2-success.state-1-active .link {
+  color: #0f5d26;
+}
+
+.link-plain.color-2-neutral.state-1-disabled .link {
+  color: #bdbfc4;
+}
+
+.link-plain.state-1-hover.color-2-danger .link {
+  color: #a10e25;
+}
+
+.link-plain.state-1-disabled.color-2-danger .link {
+  color: #ffc7c5;
+}
+
+.link-plain.state-1-enabled.color-2-neutral .link {
+  color: #272930;
+}

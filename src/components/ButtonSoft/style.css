@@ -1,0 +1,190 @@
+.button-soft {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.button-soft .button {
+  font-family: "Public Sans", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-soft.size-6-large {
+  padding: 6px 24px;
+}
+
+.button-soft.size-6-small {
+  padding: 2px 12px;
+}
+
+.button-soft.size-6-medium {
+  padding: 4px 16px;
+}
+
+.button-soft.state-6-enabled.color-4-info {
+  background-color: #f4eaff;
+}
+
+.button-soft.color-4-success.state-6-enabled {
+  background-color: #d7f5dd;
+}
+
+.button-soft.state-6-enabled.color-4-danger {
+  background-color: #ffe9e8;
+}
+
+.button-soft.state-6-enabled.color-4-primary {
+  background-color: #ddf1ff;
+}
+
+.button-soft.state-6-hover.color-4-info {
+  background-color: #e1cbff;
+}
+
+.button-soft.state-6-disabled.color-4-warning {
+  background-color: #fff8c5;
+}
+
+.button-soft.state-6-hover.color-4-warning {
+  background-color: #fae17d;
+}
+
+.button-soft.state-6-hover.color-4-neutral {
+  background-color: #dddee0;
+}
+
+.button-soft.color-4-primary.state-6-disabled {
+  background-color: #f4faff;
+}
+
+.button-soft.state-6-hover.color-4-success {
+  background-color: #77ec95;
+}
+
+.button-soft.color-4-success.state-6-disabled {
+  background-color: #f3fef5;
+}
+
+.button-soft.state-6-disabled.color-4-info {
+  background-color: #fdf7ff;
+}
+
+.button-soft.state-6-enabled.color-4-warning {
+  background-color: #fff8c5;
+}
+
+.button-soft.state-6-hover.color-4-primary {
+  background-color: #addbff;
+}
+
+.button-soft.color-4-neutral.state-6-disabled {
+  background-color: #f7f7f8;
+}
+
+.button-soft.state-6-hover.color-4-danger {
+  background-color: #ffc7c5;
+}
+
+.button-soft.state-6-enabled.color-4-neutral {
+  background-color: #eeeff0;
+}
+
+.button-soft.state-6-disabled.color-4-danger {
+  background-color: #fff8f6;
+}
+
+.button-soft.size-6-large .button {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.button-soft.size-6-small .button {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.button-soft.size-6-medium .button {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.button-soft.state-6-enabled.color-4-info .button {
+  color: #5f35ae;
+}
+
+.button-soft.color-4-success.state-6-enabled .button {
+  color: #0f5d26;
+}
+
+.button-soft.state-6-enabled.color-4-danger .button {
+  color: #a10e25;
+}
+
+.button-soft.state-6-enabled.color-4-primary .button {
+  color: #054da7;
+}
+
+.button-soft.state-6-hover.color-4-info .button {
+  color: #5f35ae;
+}
+
+.button-soft.state-6-disabled.color-4-warning .button {
+  color: #eac54f;
+}
+
+.button-soft.state-6-hover.color-4-warning .button {
+  color: #4d2d00;
+}
+
+.button-soft.state-6-hover.color-4-neutral .button {
+  color: #131418;
+}
+
+.button-soft.color-4-primary.state-6-disabled .button {
+  color: #6fb6ff;
+}
+
+.button-soft.state-6-hover.color-4-success .button {
+  color: #0f5d26;
+}
+
+.button-soft.color-4-success.state-6-disabled .button {
+  color: #4cc76e;
+}
+
+.button-soft.state-6-disabled.color-4-info .button {
+  color: #c69eff;
+}
+
+.button-soft.state-6-enabled.color-4-warning .button {
+  color: #4d2d00;
+}
+
+.button-soft.state-6-hover.color-4-primary .button {
+  color: #054da7;
+}
+
+.button-soft.color-4-neutral.state-6-disabled .button {
+  color: #bdbfc4;
+}
+
+.button-soft.state-6-hover.color-4-danger .button {
+  color: #a10e25;
+}
+
+.button-soft.state-6-enabled.color-4-neutral .button {
+  color: #272930;
+}
+
+.button-soft.state-6-disabled.color-4-danger .button {
+  color: #ff9192;
+}

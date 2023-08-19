@@ -1,0 +1,1 @@
+export { LinkPlain } from "./LinkPlain";

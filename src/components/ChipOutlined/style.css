@@ -1,0 +1,295 @@
+.chip-outlined {
+  align-items: center;
+  border: 1px solid;
+  border-radius: 24px;
+  display: flex;
+  gap: 6px;
+  position: relative;
+  width: fit-content;
+}
+
+.chip-outlined .chip {
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chip-outlined.size-1-large {
+  padding: 0px 16px;
+}
+
+.chip-outlined.size-1-small {
+  padding: 0px 8px;
+}
+
+.chip-outlined.size-1-size-12 {
+  padding: 0px 12px;
+}
+
+.chip-outlined.size-1-medium {
+  padding: 0px 12px;
+}
+
+.chip-outlined.size-1-size-18 {
+  padding: 0px 12px;
+}
+
+.chip-outlined.size-1-size-6 {
+  padding: 0px 12px;
+}
+
+.chip-outlined.size-1-size-15 {
+  padding: 0px 12px;
+}
+
+.chip-outlined.size-1-size-9 {
+  padding: 0px 12px;
+}
+
+.chip-outlined.state-active.color-0-warning {
+  background-color: #eac54f;
+  border-color: #eac54f;
+}
+
+.chip-outlined.state-enabled.color-0-danger {
+  border-color: #ffc7c5;
+}
+
+.chip-outlined.color-0-neutral.state-active {
+  background-color: #dddee0;
+  border-color: #dddee0;
+}
+
+.chip-outlined.color-0-success.state-hover {
+  background-color: #d7f5dd;
+  border-color: #4cc76e;
+}
+
+.chip-outlined.state-hover.color-0-danger {
+  background-color: #ffe9e8;
+  border-color: #ff9192;
+}
+
+.chip-outlined.state-active.color-0-info {
+  background-color: #e1cbff;
+  border-color: #e1cbff;
+}
+
+.chip-outlined.color-0-primary.state-enabled {
+  border-color: #addbff;
+}
+
+.chip-outlined.state-hover.color-0-warning {
+  background-color: #fff8c5;
+  border-color: #d4a72c;
+}
+
+.chip-outlined.state-hover.color-0-neutral {
+  background-color: #dddee0;
+  border-color: #bdbfc4;
+}
+
+.chip-outlined.color-0-success.state-active {
+  background-color: #77ec95;
+  border-color: #77ec95;
+}
+
+.chip-outlined.color-0-neutral.state-disabled {
+  border-color: #eeeff0;
+}
+
+.chip-outlined.state-enabled.color-0-info {
+  border-color: #e1cbff;
+}
+
+.chip-outlined.color-0-success.state-enabled {
+  border-color: #77ec95;
+}
+
+.chip-outlined.state-hover.color-0-info {
+  background-color: #f4eaff;
+  border-color: #c69eff;
+}
+
+.chip-outlined.color-0-primary.state-active {
+  background-color: #addbff;
+  border-color: #addbff;
+}
+
+.chip-outlined.color-0-success.state-disabled {
+  border-color: #d7f5dd;
+}
+
+.chip-outlined.state-disabled.color-0-info {
+  border-color: #f4eaff;
+}
+
+.chip-outlined.color-0-danger.state-disabled {
+  border-color: #ffe9e8;
+}
+
+.chip-outlined.state-enabled.color-0-neutral {
+  border-color: #dddee0;
+}
+
+.chip-outlined.state-disabled.color-0-warning {
+  border-color: #fae17d;
+}
+
+.chip-outlined.color-0-primary.state-disabled {
+  border-color: #ddf1ff;
+}
+
+.chip-outlined.state-active.color-0-danger {
+  background-color: #ffc7c5;
+  border-color: #ffc7c5;
+}
+
+.chip-outlined.state-enabled.color-0-warning {
+  border-color: #eac54f;
+}
+
+.chip-outlined.state-hover.color-0-primary {
+  background-color: #ddf1ff;
+  border-color: #6fb6ff;
+}
+
+.chip-outlined.size-1-large .chip {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.chip-outlined.size-1-small .chip {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.chip-outlined.size-1-size-12 .chip {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.chip-outlined.size-1-medium .chip {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.chip-outlined.size-1-size-18 .chip {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.chip-outlined.size-1-size-6 .chip {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.chip-outlined.size-1-size-15 .chip {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.chip-outlined.size-1-size-9 .chip {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.chip-outlined.state-active.color-0-warning .chip {
+  color: #4d2d00;
+}
+
+.chip-outlined.state-enabled.color-0-danger .chip {
+  color: #d3232f;
+}
+
+.chip-outlined.color-0-neutral.state-active .chip {
+  color: #272930;
+}
+
+.chip-outlined.color-0-success.state-hover .chip {
+  color: #1a7d36;
+}
+
+.chip-outlined.state-hover.color-0-danger .chip {
+  color: #d3232f;
+}
+
+.chip-outlined.state-active.color-0-info .chip {
+  color: #814dde;
+}
+
+.chip-outlined.color-0-primary.state-enabled .chip {
+  color: #096bde;
+}
+
+.chip-outlined.state-hover.color-0-warning .chip {
+  color: #4d2d00;
+}
+
+.chip-outlined.state-hover.color-0-neutral .chip {
+  color: #131418;
+}
+
+.chip-outlined.color-0-success.state-active .chip {
+  color: #1a7d36;
+}
+
+.chip-outlined.color-0-neutral.state-disabled .chip {
+  color: #bdbfc4;
+}
+
+.chip-outlined.state-enabled.color-0-info .chip {
+  color: #814dde;
+}
+
+.chip-outlined.color-0-success.state-enabled .chip {
+  color: #1a7d36;
+}
+
+.chip-outlined.state-hover.color-0-info .chip {
+  color: #814dde;
+}
+
+.chip-outlined.color-0-primary.state-active .chip {
+  color: #096bde;
+}
+
+.chip-outlined.color-0-success.state-disabled .chip {
+  color: #d7f5dd;
+}
+
+.chip-outlined.state-disabled.color-0-info .chip {
+  color: #f4eaff;
+}
+
+.chip-outlined.color-0-danger.state-disabled .chip {
+  color: #ffe9e8;
+}
+
+.chip-outlined.state-enabled.color-0-neutral .chip {
+  color: #272930;
+}
+
+.chip-outlined.state-disabled.color-0-warning .chip {
+  color: #fae17d;
+}
+
+.chip-outlined.color-0-primary.state-disabled .chip {
+  color: #ddf1ff;
+}
+
+.chip-outlined.state-active.color-0-danger .chip {
+  color: #d3232f;
+}
+
+.chip-outlined.state-enabled.color-0-warning .chip {
+  color: #4d2d00;
+}
+
+.chip-outlined.state-hover.color-0-primary .chip {
+  color: #096bde;
+}

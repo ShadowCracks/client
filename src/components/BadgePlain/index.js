@@ -1,0 +1,1 @@
+export { BadgePlain } from "./BadgePlain";

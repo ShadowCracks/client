@@ -1,0 +1,129 @@
+.icon-button-outlined {
+  align-items: flex-start;
+  border: 1px solid;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.icon-button-outlined.size-0-large {
+  padding: 10px;
+}
+
+.icon-button-outlined.size-0-small {
+  padding: 6px;
+}
+
+.icon-button-outlined.size-0-medium {
+  padding: 8px;
+}
+
+.icon-button-outlined.enabled.color-info {
+  border-color: #e1cbff;
+}
+
+.icon-button-outlined.color-success.enabled {
+  border-color: #77ec95;
+}
+
+.icon-button-outlined.active.color-info {
+  background-color: #e1cbff;
+  border-color: #e1cbff;
+}
+
+.icon-button-outlined.active.color-warning {
+  background-color: #eac54f;
+  border-color: #eac54f;
+}
+
+.icon-button-outlined.enabled.color-danger {
+  border-color: #ffc7c5;
+}
+
+.icon-button-outlined.active.color-neutral {
+  background-color: #dddee0;
+  border-color: #dddee0;
+}
+
+.icon-button-outlined.enabled.color-primary {
+  border-color: #addbff;
+}
+
+.icon-button-outlined.hover.color-info {
+  background-color: #f4eaff;
+  border-color: #c69eff;
+}
+
+.icon-button-outlined.disabled.color-warning {
+  border-color: #fae17d;
+}
+
+.icon-button-outlined.hover.color-warning {
+  background-color: #fff8c5;
+  border-color: #d4a72c;
+}
+
+.icon-button-outlined.hover.color-neutral {
+  background-color: #dddee0;
+  border-color: #bdbfc4;
+}
+
+.icon-button-outlined.color-primary.disabled {
+  border-color: #ddf1ff;
+}
+
+.icon-button-outlined.hover.color-success {
+  background-color: #d7f5dd;
+  border-color: #4cc76e;
+}
+
+.icon-button-outlined.color-primary.active {
+  background-color: #addbff;
+  border-color: #addbff;
+}
+
+.icon-button-outlined.color-success.disabled {
+  border-color: #d7f5dd;
+}
+
+.icon-button-outlined.active.color-danger {
+  background-color: #ffc7c5;
+  border-color: #ffc7c5;
+}
+
+.icon-button-outlined.disabled.color-info {
+  border-color: #f4eaff;
+}
+
+.icon-button-outlined.enabled.color-warning {
+  border-color: #eac54f;
+}
+
+.icon-button-outlined.hover.color-primary {
+  background-color: #ddf1ff;
+  border-color: #addbff;
+}
+
+.icon-button-outlined.color-success.active {
+  background-color: #77ec95;
+  border-color: #77ec95;
+}
+
+.icon-button-outlined.color-neutral.disabled {
+  border-color: #eeeff0;
+}
+
+.icon-button-outlined.hover.color-danger {
+  background-color: #ffe9e8;
+  border-color: #ff9192;
+}
+
+.icon-button-outlined.disabled.color-danger {
+  border-color: #ffe9e8;
+}
+
+.icon-button-outlined.enabled.color-neutral {
+  border-color: #dddee0;
+}
